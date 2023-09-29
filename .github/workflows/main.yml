@@ -11,4 +11,4 @@ jobs:
     steps:
     
     - name: My script
-      run: ./my_script.sh
+      run: chmod +x my_script.sh
