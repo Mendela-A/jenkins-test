@@ -9,12 +9,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
-    - name: Show dir
-      run: find / -name "my_script.sh"
     
-    - name: Show PATH
-      run: pwd
+    - name: Checkout
+      uses: actions/checkout@v3    
 
     - name: My script
-      run: ././my_script.sh
+      run: |
+        chmod a+x ./my_script.sh
+        ./my_script.sh
