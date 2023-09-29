@@ -11,7 +11,7 @@ jobs:
     steps:
 
     - name: Show dir
-      run: ls -la /home/runner/work/jenkins-test/jenkins-test
+      run: find / -name "my_script.sh"
     
     - name: Show PATH
       run: pwd
