@@ -11,4 +11,5 @@ jobs:
     steps:
     
     - name: My script
+      run: bash pwd
       run: bash jenkins-test/my_script.sh
