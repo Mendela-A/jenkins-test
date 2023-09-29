@@ -11,4 +11,4 @@ jobs:
     steps:
     
     - name: My script
-      run: chmod +x my_script.sh
+      run: bash jenkins-test/my_script.sh
