@@ -11,4 +11,4 @@ jobs:
     steps:
     
     - name: My script
-      run: bash ${GITHUB_WORKSPACE}/my_script.sh
+      run: bash echo "Hello Andrii Mendela"
