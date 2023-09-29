@@ -9,6 +9,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+    - name: Show dir
+      run: ls
     
+    - name: Show PATH
+      run: pwd
+
     - name: My script
       run: ./my_script.sh
