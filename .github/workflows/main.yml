@@ -11,7 +11,7 @@ jobs:
     steps:
 
     - name: Show dir
-      run: ls -la
+      run: ls -la /home/runner/work/jenkins-test/jenkins-test
     
     - name: Show PATH
       run: pwd
