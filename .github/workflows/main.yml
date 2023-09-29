@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./jenkins-test 
+        working-directory: jenkins-test 
 
     steps:
     
